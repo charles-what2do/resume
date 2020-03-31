@@ -1,0 +1,15 @@
+@import "./header.css";
+
+.main-content {
+  margin-top: 16px;
+}
+
+.main-content img {
+  display: block;
+  margin: 0 auto;
+}
+
+.main-content p,
+footer p {
+  text-align: center;
+}

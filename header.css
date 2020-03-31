@@ -1,0 +1,31 @@
+.header {
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 32px;
+  padding: 0 16px 0 16px;
+  /* top right bottom left, clockwise direction from the top */
+  align-items: center;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: orange;
+}
+
+.header .active {
+  color: cyan;
+}
+
+body {
+  margin: 0;
+}
+
+.header h1 {
+  margin: 0;
+}

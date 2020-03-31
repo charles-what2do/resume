@@ -1,0 +1,29 @@
+@import "./header.css";
+
+.blog-article {
+  border: 1px solid brown;
+  margin: 16px;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.blog-article:nth-child(even) {
+  background-color: aqua;
+}
+
+.blog-article h2 {
+  margin: 0;
+}
+
+.click-me {
+  text-align: right;
+}
+
+.click-me a {
+  text-decoration: none;
+  color: gray;
+}
+
+.click-me a:hover {
+  color: #0000ff;
+}
